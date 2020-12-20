@@ -27,19 +27,23 @@ class BasePage:
         return elements
 
     def __click_element(self, selector):
-        element = None
         try:
             element = self.__find_element(selector)
-            self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, selector))).click()
+            element.click()
         except:
-            NoSuchElementException(f'{element.get_attribute("class")} not found')
+            NoSuchElementException(f'{selector} not found')
 
     def find_and_click(self, selector):
         self.__click_element(selector)
 
+    def input_fill(self, selector, value):
+        element = self.__find_element(selector)
+        element.click()
+        element.clear()
+        element.send_keys(value)
+
     def get_element_text(self, selector):
-        text = self.__find_element(selector).text
-        return text
+        return self.__find_element(selector).text
 
     def get_elements_list(self, selector):
         return self.__find_elements(selector)

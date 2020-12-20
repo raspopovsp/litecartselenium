@@ -5,18 +5,16 @@ from page_objects import MainPage
 ''' переход на страницу подменю Категорий '''
 
 
-def sleep_test_goto_category(browser):
+def test_goto_category(browser):
     driver = browser
-    driver.get('http://localhost/index.php')
-    MainPage(driver).accept_cookies()
+    # MainPage(driver).accept_cookies()
     MainPage(driver).navigate_to(category='Rubber Ducks')
     assert 'rubber-ducks-c-1' in driver.current_url
 
 
 ''' Меню авторизации закрыто по умолчанию '''
-def sleep_test_account_menu_closed_by_default(browser):
+def test_account_menu_closed_by_default(browser):
     driver = browser
-    driver.get('http://localhost/index.php')
     if MainPage(driver).is_expanded():
         assert False
     else:
@@ -26,7 +24,6 @@ def sleep_test_account_menu_closed_by_default(browser):
 ''' Меню авторизации открывается при клике '''
 def test_account_menu_expand(browser):
     driver = browser
-    driver.get('http://localhost/index.php')
     if not MainPage(driver).is_expanded():
         MainPage(driver).login_menu_click()
         if MainPage(driver).is_expanded():
