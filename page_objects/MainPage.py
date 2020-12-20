@@ -8,6 +8,7 @@ default_menu = '#default_menu'
 categories_menu = '#default-menu > ul:nth-child(1) > li.categories.dropdown'
 menu_element = '#default-menu > ul:nth-child(1) > li.categories.dropdown.open > ul > li > a'
 
+account_menu = '#default-menu > ul.nav.navbar-nav.navbar-right > li.account.dropdown'
 
 class MainPage(BasePage):
 
@@ -24,3 +25,15 @@ class MainPage(BasePage):
             else:
                 continue
 
+    def is_expanded(self):
+        menu_class = self.get_element_attribute(account_menu, 'class')
+        if 'open' in menu_class:
+            return True
+        else:
+            return False
+
+    def login_menu_click(self):
+        if not self.is_expanded():
+            self.find_and_click(account_menu)
+        else:
+            return
