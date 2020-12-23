@@ -10,6 +10,14 @@ class BasePage:
         self.driver = driver
         self.wait = WebDriverWait(driver, wait)
 
+    """ просмотре аттрибутов элемента. Для отладки """
+    @staticmethod
+    def get_element_attributes(element):
+        attrs = []
+        for attr in element.get_property('attributes'):
+            attrs.append([attr['name'], attr['value']])
+        return attrs
+
     def __find_element(self, selector):
         element = None
         try:

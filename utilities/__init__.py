@@ -1,0 +1,1 @@
+from .readProperties import ReadConfig
