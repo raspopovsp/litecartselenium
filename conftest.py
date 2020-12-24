@@ -25,3 +25,9 @@ def browser(request):
     driver.get(request.config.getoption("--url"))
 
     return driver
+
+
+@pytest.mark.optionalhook
+def pytest_metadata(metadata):
+    metadata.pop("JAVA_HOME", None)
+    metadata.pop("Plugins", None)

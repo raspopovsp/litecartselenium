@@ -1,0 +1,396 @@
+2020-12-24 16:01:04,204 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 16:01:04,227 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:01:04,246 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:01:04,248 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:01:04,274 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:01:04,295 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:01:04,390 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:01:04,466 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:01:04,469 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:01:04,691 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:01:04,709 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 16:01:04,720 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:01:06,677 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 16:01:06,707 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:01:06,729 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:01:06,732 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:01:06,760 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:01:06,784 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:01:06,890 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:01:06,976 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:01:06,979 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:01:07,091 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:01:07,111 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 16:01:07,121 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:01:09,033 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 16:01:09,063 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:01:09,093 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:01:09,096 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:01:09,129 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:01:09,154 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:01:09,261 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:01:09,351 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:01:09,354 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:01:09,523 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:01:09,543 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 16:01:09,554 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:32:21,784 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 16:32:21,815 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:32:21,841 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:32:21,843 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:32:21,873 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:32:21,894 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:32:21,999 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:32:22,082 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:32:22,084 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:32:22,195 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:32:22,216 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 16:32:22,225 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:32:23,543 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 16:32:23,573 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:32:23,598 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:32:23,601 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:32:23,633 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:32:23,634 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 16:32:23,657 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:32:23,667 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:32:23,690 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:32:23,694 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:32:23,723 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:32:23,747 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:32:23,761 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:32:23,857 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+d
+2020-12-24 16:32:23,859 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:32:23,939 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:32:23,942 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:32:24,025 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:32:24,048 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 16:32:24,060 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:32:24,163 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:32:24,181 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 16:32:24,191 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:44:22,814 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 16:44:22,838 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:44:22,858 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:44:22,861 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:44:22,888 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:44:22,911 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:44:23,006 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:44:23,085 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:44:23,088 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:44:23,301 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:44:23,319 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 16:44:23,329 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:44:25,290 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 16:44:25,314 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:44:25,334 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:44:25,336 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:44:25,364 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:44:25,385 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:44:25,485 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:44:25,578 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:44:25,581 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:44:25,676 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:44:25,694 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 16:44:25,704 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:44:29,704 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 16:44:29,732 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:44:29,753 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:44:29,755 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:44:29,783 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:44:29,803 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:44:29,903 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:44:29,981 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:44:29,984 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:44:30,137 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:44:30,154 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 16:44:30,164 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:48:12,453 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 16:48:12,484 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:48:12,510 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:48:12,513 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:48:12,541 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:48:12,563 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:48:12,667 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:48:12,746 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:48:12,749 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:48:12,959 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:48:12,978 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 16:48:12,990 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:48:14,906 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 16:48:14,928 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:48:14,949 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:48:14,952 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:48:14,979 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:48:15,001 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:48:15,100 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:48:15,185 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:48:15,188 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:48:15,288 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:48:15,306 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 16:48:15,318 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 16:48:17,198 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 16:48:17,220 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:48:17,241 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 16:48:17,243 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 16:48:17,270 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:48:17,293 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:48:17,391 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 16:48:17,482 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 16:48:17,485 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 16:48:17,637 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 16:48:17,656 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 16:48:17,669 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:00:19,162 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 17:00:19,186 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:19,206 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:19,208 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:00:19,234 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:19,256 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:19,355 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:19,442 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:00:19,444 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:00:19,653 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:19,671 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 17:00:19,681 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:00:21,720 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 17:00:21,752 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:21,779 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:21,782 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:00:21,812 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:21,834 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:21,944 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:22,029 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:00:22,032 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:00:22,156 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:22,176 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:00:22,187 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:00:24,169 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 17:00:24,198 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:24,220 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:24,222 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:00:24,252 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:24,272 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:24,375 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:24,454 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:00:24,457 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:00:24,608 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:24,625 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:00:24,635 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:00:41,155 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 17:00:41,177 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:41,196 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:41,199 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:00:41,226 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:41,247 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:41,346 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:41,433 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:00:41,436 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:00:41,646 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:41,664 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 17:00:41,674 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:00:43,671 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 17:00:43,701 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:43,722 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:43,724 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:00:43,753 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:43,775 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:43,876 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:43,957 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:00:43,959 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:00:44,067 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:44,087 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:00:44,098 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:00:46,094 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 17:00:46,122 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:46,144 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:00:46,146 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:00:46,175 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:46,197 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:46,300 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:00:46,381 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:00:46,384 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:00:46,534 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:00:46,553 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:00:46,562 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:01:10,446 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 17:01:10,475 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:10,500 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:10,503 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:01:10,533 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:10,554 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:10,651 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:10,728 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:01:10,731 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:01:10,932 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:10,951 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 17:01:10,963 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:01:12,891 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 17:01:12,915 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:12,937 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:12,940 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:01:12,969 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:12,994 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:13,098 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:13,193 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:01:13,196 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:01:13,305 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:13,323 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:01:13,334 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:01:15,251 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 17:01:15,276 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:15,295 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:15,297 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:01:15,324 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:15,346 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:15,443 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:15,531 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:01:15,534 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:01:15,681 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:15,699 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:01:15,712 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:01:53,137 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 17:01:53,160 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:53,180 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:53,183 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:01:53,209 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:53,230 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:53,323 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:53,405 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:01:53,407 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:01:53,612 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:53,630 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 17:01:53,640 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:01:55,508 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 17:01:55,533 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:55,554 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:55,557 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:01:55,584 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:55,605 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:55,705 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:55,793 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:01:55,797 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:01:55,896 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:55,915 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:01:55,925 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:01:57,936 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 17:01:57,965 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:57,991 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:01:57,994 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:01:58,026 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:58,050 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:58,158 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:01:58,247 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:01:58,251 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:01:58,418 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:01:58,436 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:01:58,446 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:08:19,662 - test_auth.py - ntpath - INFO - ========== test auth positive start =========
+2020-12-24 17:08:19,684 - BasePage.py - ntpath - INFO - element account dropdown found
+2020-12-24 17:08:19,703 - BasePage.py - ntpath - INFO - element account dropdown found
+2020-12-24 17:08:19,706 - BasePage.py - ntpath - INFO - element account dropdown before click
+2020-12-24 17:08:19,732 - BasePage.py - ntpath - INFO - clicked
+2020-12-24 17:08:19,753 - BasePage.py - ntpath - INFO - element form-control found
+2020-12-24 17:08:19,850 - BasePage.py - ntpath - INFO - element form-control found
+2020-12-24 17:08:19,934 - BasePage.py - ntpath - INFO - element btn btn-default found
+2020-12-24 17:08:19,937 - BasePage.py - ntpath - INFO - element btn btn-default before click
+2020-12-24 17:08:20,148 - BasePage.py - ntpath - INFO - clicked
+2020-12-24 17:08:20,166 - BasePage.py - ntpath - INFO - element alert alert-success found
+2020-12-24 17:08:20,176 - test_auth.py - ntpath - INFO - ========== TEST PASSED =========
+2020-12-24 17:08:22,124 - test_auth.py - ntpath - INFO - ========== unregistered email test start =========
+2020-12-24 17:08:22,155 - BasePage.py - ntpath - INFO - element account dropdown found
+2020-12-24 17:08:22,178 - BasePage.py - ntpath - INFO - element account dropdown found
+2020-12-24 17:08:22,180 - BasePage.py - ntpath - INFO - element account dropdown before click
+2020-12-24 17:08:22,209 - BasePage.py - ntpath - INFO - clicked
+2020-12-24 17:08:22,231 - BasePage.py - ntpath - INFO - element form-control found
+2020-12-24 17:08:22,336 - BasePage.py - ntpath - INFO - element form-control found
+2020-12-24 17:08:22,423 - BasePage.py - ntpath - INFO - element btn btn-default found
+2020-12-24 17:08:22,426 - BasePage.py - ntpath - INFO - element btn btn-default before click
+2020-12-24 17:08:22,543 - BasePage.py - ntpath - INFO - clicked
+2020-12-24 17:08:22,566 - BasePage.py - ntpath - INFO - element alert alert-danger found
+2020-12-24 17:08:22,579 - test_auth.py - ntpath - INFO - ========== TEST PASSED =========
+2020-12-24 17:08:24,517 - test_auth.py - ntpath - INFO - ========== wrong password test start =========
+2020-12-24 17:08:24,540 - BasePage.py - ntpath - INFO - element account dropdown found
+2020-12-24 17:08:24,559 - BasePage.py - ntpath - INFO - element account dropdown found
+2020-12-24 17:08:24,561 - BasePage.py - ntpath - INFO - element account dropdown before click
+2020-12-24 17:08:24,588 - BasePage.py - ntpath - INFO - clicked
+2020-12-24 17:08:24,610 - BasePage.py - ntpath - INFO - element form-control found
+2020-12-24 17:08:24,705 - BasePage.py - ntpath - INFO - element form-control found
+2020-12-24 17:08:24,788 - BasePage.py - ntpath - INFO - element btn btn-default found
+2020-12-24 17:08:24,791 - BasePage.py - ntpath - INFO - element btn btn-default before click
+2020-12-24 17:08:24,940 - BasePage.py - ntpath - INFO - clicked
+2020-12-24 17:08:24,958 - BasePage.py - ntpath - INFO - element alert alert-danger found
+2020-12-24 17:08:24,968 - test_auth.py - ntpath - INFO - ========== TEST PASSED =========
+2020-12-24 17:09:28,560 - test_auth.py - utilities.basicLogger - INFO - ========== test auth positive start =========
+2020-12-24 17:09:28,592 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:09:28,613 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:09:28,615 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:09:28,644 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:09:28,664 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:09:28,764 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:09:28,839 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:09:28,841 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:09:29,041 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:09:29,060 - BasePage.py - utilities.basicLogger - INFO - element alert alert-success found
+2020-12-24 17:09:29,070 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:09:30,989 - test_auth.py - utilities.basicLogger - INFO - ========== unregistered email test start =========
+2020-12-24 17:09:31,012 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:09:31,030 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:09:31,032 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:09:31,058 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:09:31,080 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:09:31,177 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:09:31,258 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:09:31,261 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:09:31,371 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:09:31,389 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:09:31,399 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:09:33,345 - test_auth.py - utilities.basicLogger - INFO - ========== wrong password test start =========
+2020-12-24 17:09:33,375 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:09:33,401 - BasePage.py - utilities.basicLogger - INFO - element account dropdown found
+2020-12-24 17:09:33,404 - BasePage.py - utilities.basicLogger - INFO - element account dropdown before click
+2020-12-24 17:09:33,434 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:09:33,454 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:09:33,562 - BasePage.py - utilities.basicLogger - INFO - element form-control found
+2020-12-24 17:09:33,648 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default found
+2020-12-24 17:09:33,650 - BasePage.py - utilities.basicLogger - INFO - element btn btn-default before click
+2020-12-24 17:09:33,830 - BasePage.py - utilities.basicLogger - INFO - clicked
+2020-12-24 17:09:33,849 - BasePage.py - utilities.basicLogger - INFO - element alert alert-danger found
+2020-12-24 17:09:33,860 - test_auth.py - utilities.basicLogger - INFO - ========== TEST PASSED =========
+2020-12-24 17:10:50,926 - test_auth.py - G:\Projects\LiteCartSelenium\test_auth.py - INFO - ========== test auth positive start =========
+2020-12-24 17:10:50,949 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown found
+2020-12-24 17:10:50,970 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown found
+2020-12-24 17:10:50,973 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown before click
+2020-12-24 17:10:50,999 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - clicked
+2020-12-24 17:10:51,021 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element form-control found
+2020-12-24 17:10:51,120 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element form-control found
+2020-12-24 17:10:51,196 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element btn btn-default found
+2020-12-24 17:10:51,199 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element btn btn-default before click
+2020-12-24 17:10:51,410 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - clicked
+2020-12-24 17:10:51,427 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element alert alert-success found
+2020-12-24 17:10:51,437 - test_auth.py - G:\Projects\LiteCartSelenium\test_auth.py - INFO - ========== TEST PASSED =========
+2020-12-24 17:10:53,361 - test_auth.py - G:\Projects\LiteCartSelenium\test_auth.py - INFO - ========== unregistered email test start =========
+2020-12-24 17:10:53,385 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown found
+2020-12-24 17:10:53,404 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown found
+2020-12-24 17:10:53,407 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown before click
+2020-12-24 17:10:53,431 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - clicked
+2020-12-24 17:10:53,453 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element form-control found
+2020-12-24 17:10:53,546 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element form-control found
+2020-12-24 17:10:53,624 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element btn btn-default found
+2020-12-24 17:10:53,626 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element btn btn-default before click
+2020-12-24 17:10:53,723 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - clicked
+2020-12-24 17:10:53,741 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element alert alert-danger found
+2020-12-24 17:10:53,751 - test_auth.py - G:\Projects\LiteCartSelenium\test_auth.py - INFO - ========== TEST PASSED =========
+2020-12-24 17:10:55,642 - test_auth.py - G:\Projects\LiteCartSelenium\test_auth.py - INFO - ========== wrong password test start =========
+2020-12-24 17:10:55,664 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown found
+2020-12-24 17:10:55,682 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown found
+2020-12-24 17:10:55,685 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element account dropdown before click
+2020-12-24 17:10:55,709 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - clicked
+2020-12-24 17:10:55,728 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element form-control found
+2020-12-24 17:10:55,815 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element form-control found
+2020-12-24 17:10:55,891 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element btn btn-default found
+2020-12-24 17:10:55,893 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element btn btn-default before click
+2020-12-24 17:10:56,047 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - clicked
+2020-12-24 17:10:56,065 - BasePage.py - G:\Projects\LiteCartSelenium\page_objects\BasePage.py - INFO - element alert alert-danger found
+2020-12-24 17:10:56,075 - test_auth.py - G:\Projects\LiteCartSelenium\test_auth.py - INFO - ========== TEST PASSED =========

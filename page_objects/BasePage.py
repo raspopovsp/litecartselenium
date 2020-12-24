@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-
+from utilities import LogGenerator
 
 class BasePage:
 
@@ -10,7 +10,9 @@ class BasePage:
         self.driver = driver
         self.wait = WebDriverWait(driver, wait)
 
-    """ просмотре аттрибутов элемента. Для отладки """
+    logger = LogGenerator.loggen()
+
+    """ Получение аттрибутов элемента. Для отладки """
     @staticmethod
     def get_element_attributes(element):
         attrs = []
@@ -22,24 +24,30 @@ class BasePage:
         element = None
         try:
             element = self.wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, selector)))
+            self.logger.info(f'element {element.get_attribute("class")} found')
         except:
+            self.logger.exception(f'selector {selector} not found')
             NoSuchElementException(f'{selector} not found')
         return element
 
     def __find_elements(self, selector):
-        elements = None
+        elements = []
         try:
+            self.logger.info(f'elements with class - {elements[0].get_attribute("class")} found')
             elements = self.wait.until(EC.visibility_of_all_elements_located((By.CSS_SELECTOR, selector)))
         except:
-            NoSuchElementException(f'{selector.get_attribute("class")} not found')
+            self.logger.exception(f'selector {selector} not found')
+            NoSuchElementException(f'{selector} not found')
         return elements
 
     def __click_element(self, selector):
         try:
             element = self.__find_element(selector)
+            self.logger.info(f'element {element.get_attribute("class")} before click')
             element.click()
+            self.logger.info(f'clicked')
         except:
-            NoSuchElementException(f'{selector} not found')
+            self.logger.exception(f'element {selector} not clicked')
 
     def find_and_click(self, selector):
         self.__click_element(selector)
@@ -58,4 +66,7 @@ class BasePage:
 
     def get_element_attribute(self, selector, attr):
         element = self.__find_element(selector)
-        return element.get_attribute(attr)
+        try:
+            return element.get_attribute(attr)
+        except:
+            self.logger.exception(f'Cant get {attr} from {element}')

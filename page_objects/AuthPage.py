@@ -6,6 +6,8 @@ login_btn = 'button[name=login]'
 remember_me = 'input[name=remember_me]'
 
 alert = '#notices > div.alert'
+
+
 # alert_success = 'div.alert.alert-success'
 # alert_danger = 'div.alert.alert-danger'
 
@@ -31,4 +33,3 @@ class AuthPage(BasePage):
     #
     # def get_alert_danger_text(self):
     #     return self.get_element_text(alert_danger)
-    #
