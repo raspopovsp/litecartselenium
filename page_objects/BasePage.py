@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
@@ -23,7 +24,7 @@ class BasePage:
     def __find_element(self, selector):
         element = None
         try:
-            element = self.wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, selector)))
+            element = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
             self.logger.info(f'element {element.get_attribute("class")} found')
         except:
             self.logger.exception(f'selector {selector} not found')
@@ -49,6 +50,9 @@ class BasePage:
         except:
             self.logger.exception(f'element {selector} not clicked')
 
+    def wait_for_elements(self, selector):
+        self.__find_elements(selector)
+
     def find_and_click(self, selector):
         self.__click_element(selector)
 
@@ -70,3 +74,7 @@ class BasePage:
             return element.get_attribute(attr)
         except:
             self.logger.exception(f'Cant get {attr} from {element}')
+
+    def get_select(self, selector, option):
+        select = Select(self.driver.find_element(By.NAME, selector))
+        select.select_by_value(option)

@@ -4,9 +4,11 @@ from utilities import ReadConfig
 
 base_url = ReadConfig.get_base_url()
 
+
 def pytest_addoption(parser):
     parser.addoption("--url", action="store", default=base_url)
     parser.addoption("--browser", action="store", default="chrome")
+
 
 @pytest.fixture
 def browser(request):

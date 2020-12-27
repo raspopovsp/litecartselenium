@@ -1,5 +1,3 @@
-from selenium.common.exceptions import NoSuchElementException
-
 from page_objects import BasePage
 
 accept_cookies_btn = '.btn[name=accept_cookies]'
@@ -9,11 +7,12 @@ categories_menu = '#default-menu > ul:nth-child(1) > li.categories.dropdown'
 menu_element = '#default-menu > ul:nth-child(1) > li.categories.dropdown.open > ul > li > a'
 
 account_menu = '#default-menu > ul.nav.navbar-nav.navbar-right > li.account.dropdown'
+new_customer = '#default-menu > ul.nav.navbar-nav.navbar-right > li.account.dropdown > ul > li:nth-child(2) > a'
 
 
 class MainPage(BasePage):
 
-    ''' принять куки (попап при запуске) '''
+    ''' принять куки (поп-ап при запуске) '''
     def accept_cookies(self):
         self.find_and_click(accept_cookies_btn)
 
@@ -36,8 +35,14 @@ class MainPage(BasePage):
         else:
             return False
 
+    """ Клик по меню Sign In """
     def login_menu_click(self):
         if not self.is_expanded():
             self.find_and_click(account_menu)
         else:
             return
+
+    """ Переход к разделу создания аккаунта """
+    def goto_create_customer(self):
+        self.login_menu_click()
+        self.find_and_click(new_customer)

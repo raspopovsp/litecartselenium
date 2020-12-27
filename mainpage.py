@@ -5,7 +5,7 @@ from page_objects import MainPage
 ''' переход на страницу подменю Категорий '''
 
 
-def test_goto_category(browser):
+def sleep_test_goto_category(browser):
     driver = browser
     # MainPage(driver).accept_cookies()
     MainPage(driver).navigate_to(category='Rubber Ducks')
@@ -13,7 +13,7 @@ def test_goto_category(browser):
 
 
 ''' Меню авторизации закрыто по умолчанию '''
-def test_account_menu_closed_by_default(browser):
+def sleep_test_account_menu_closed_by_default(browser):
     driver = browser
     if MainPage(driver).is_expanded():
         assert False
@@ -22,7 +22,7 @@ def test_account_menu_closed_by_default(browser):
 
 
 ''' Меню авторизации открывается при клике '''
-def test_account_menu_expand(browser):
+def sleep_test_account_menu_expand(browser):
     driver = browser
     if not MainPage(driver).is_expanded():
         MainPage(driver).login_menu_click()
@@ -32,3 +32,13 @@ def test_account_menu_expand(browser):
             assert False
     else:
         raise Exception("Menu expanded")
+
+def test_goto_create_account(browser):
+    driver = browser
+    MainPage(driver).login_menu_click()
+    MainPage(driver).goto_create_customer()
+    if 'create_account' in driver.current_url:
+        print(driver.current_url)
+        assert True
+    else:
+        assert False

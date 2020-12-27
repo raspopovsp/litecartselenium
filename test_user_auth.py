@@ -1,6 +1,5 @@
 from page_objects import AuthPage, MainPage, BasePage
-from utilities import ReadConfig, LogGenerator
-from utilities.CSVReader import CSVReader
+from utilities import ReadConfig
 
 username = ReadConfig.get_username()
 password = ReadConfig.get_password()
