@@ -1,9 +1,11 @@
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from utilities import LogGenerator
+
 
 class BasePage:
 
@@ -14,6 +16,7 @@ class BasePage:
     logger = LogGenerator.loggen()
 
     """ Получение аттрибутов элемента. Для отладки """
+
     @staticmethod
     def get_element_attributes(element):
         attrs = []
@@ -25,7 +28,12 @@ class BasePage:
         element = None
         try:
             element = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
-            self.logger.info(f'element {element.get_attribute("class")} found')
+            if element.get_attribute('name'):
+                self.logger.info(f'element {element.get_attribute("name")} found')
+            elif element.get_attribute('class'):
+                self.logger.info(f'element {element.get_attribute("class")} found')
+            elif element.get_attribute('type'):
+                self.logger.info(f'element {element.get_attribute("type")} found')
         except:
             self.logger.exception(f'selector {selector} not found')
             NoSuchElementException(f'{selector} not found')
@@ -43,24 +51,19 @@ class BasePage:
 
     def __click_element(self, selector):
         try:
-            element = self.__find_element(selector)
+            element = self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, selector)))
             self.logger.info(f'element {element.get_attribute("class")} before click')
             element.click()
             self.logger.info(f'clicked')
         except:
             self.logger.exception(f'element {selector} not clicked')
 
-    def wait_for_elements(self, selector):
-        self.__find_elements(selector)
-
     def find_and_click(self, selector):
         self.__click_element(selector)
 
     def input_fill(self, selector, value):
         element = self.__find_element(selector)
-        element.click()
-        element.clear()
-        element.send_keys(value)
+        ActionChains(self.driver).move_to_element(element).click().send_keys(value).perform()
 
     def get_element_text(self, selector):
         return self.__find_element(selector).text

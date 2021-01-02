@@ -83,7 +83,7 @@ class UserRegistration(BasePage):
         self.find_and_click(create_btn)
 
     def customer_data(self, user_params):
-        self.company_name(user_params['company_name'])
+        self.company_name(user_params['company'])
         self.tax_id(user_params['tax_id'])
         self.first_name(user_params['first_name'])
         self.last_name(user_params['last_name'])
@@ -97,6 +97,3 @@ class UserRegistration(BasePage):
         self.phone(user_params['phone'])
         self.password(user_params['password'])
         self.password_confirmation(user_params['password_confirmation'])
-
-    def wait_for_inputs_visible(self):
-        self.wait_for_elements(form_controls)

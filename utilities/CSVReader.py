@@ -3,6 +3,8 @@ import csv
 
 class CSVReader:
 
+
+    """ получение данных из файла """
     @staticmethod
     def get_data(file):
         data = []
@@ -12,8 +14,9 @@ class CSVReader:
                 data.append(row)
         return data
 
+    """ парсинг данных пользователей """
     @staticmethod
-    def parse_data(data):
+    def parse_user_data(data):
         users = []
         for x in data:
             user = {
