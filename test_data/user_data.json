@@ -1,0 +1,20 @@
+{
+    "customer_data": [
+        {
+        "company": "new company",
+        "tax_id": "new tax id",
+        "first_name": "first name",
+        "last_name": "last name",
+        "address_1": "street",
+        "address_2": "building",
+        "postal_code": "1234",
+        "city": "of midnight",
+        "country": "AU",
+        "state": "VIC",
+        "email": "new@mail.com",
+        "phone": "1234567890",
+        "password": "12345",
+        "password_confirmation": "12345"
+        }
+    ]
+}

@@ -16,7 +16,6 @@ class BasePage:
     logger = LogGenerator.loggen()
 
     """ Получение аттрибутов элемента. Для отладки """
-
     @staticmethod
     def get_element_attributes(element):
         attrs = []

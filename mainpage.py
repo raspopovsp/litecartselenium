@@ -33,7 +33,7 @@ def sleep_test_account_menu_expand(browser):
     else:
         raise Exception("Menu expanded")
 
-def test_goto_create_account(browser):
+def test_goto_account_create_form(browser):
     driver = browser
     MainPage(driver).login_menu_click()
     MainPage(driver).goto_create_customer()

@@ -1,12 +1,17 @@
 import csv
+import json
 
 
-class CSVReader:
+class FileReader:
 
-
-    """ получение данных из файла """
     @staticmethod
-    def get_data(file):
+    def get_json_data(file):
+        with open(file) as json_file:
+            data = json.load(json_file)
+        return data
+
+    @staticmethod
+    def get_csv_data(file):
         data = []
         with open(file, newline='') as csvfile:
             reader = csv.reader(csvfile)
@@ -15,6 +20,7 @@ class CSVReader:
         return data
 
     """ парсинг данных пользователей """
+
     @staticmethod
     def parse_user_data(data):
         users = []
